@@ -30,7 +30,7 @@ export default async function RootLayout({
 
   return (
     <html lang="en">
-      <body className={font.className}>
+      <body className={`${font.className} dark:text-white dark:bg-slate-800`}>
         <ClientOnly>
           <ToasterProvider />
           <LoginModal />
@@ -39,7 +39,7 @@ export default async function RootLayout({
           <RentModal />
           <Navbar currentUser={currentUser} />
         </ClientOnly>
-        <div className="pb-20 pt-28 dark:text-white dark:bg-slate-800">
+        <div className="pb-20 pt-28">
           {children}
         </div>
       </body>
