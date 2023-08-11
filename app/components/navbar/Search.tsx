@@ -63,6 +63,7 @@ const Search = () => {
         hover:shadow-md 
         transition 
         cursor-pointer
+        dark:bg-slate-800
       "
     >
       <div 
@@ -78,6 +79,7 @@ const Search = () => {
             text-sm 
             font-semibold 
             px-6
+            dark:text-white
           "
         >
           {locationLabel}
@@ -92,6 +94,7 @@ const Search = () => {
             border-x-[1px] 
             flex-1 
             text-center
+            dark:text-white
           "
         >
           {durationLabel}

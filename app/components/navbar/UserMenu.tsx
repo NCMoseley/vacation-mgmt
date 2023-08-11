@@ -42,7 +42,7 @@ const UserMenu: React.FC<UserMenuProps> = ({
 
   return ( 
     <div className="relative">
-      <div className="flex flex-row items-center gap-3">
+      <div className="flex flex-row items-center gap-3 dark:text-white">
         <div 
           onClick={onRent}
           className="
@@ -53,7 +53,8 @@ const UserMenu: React.FC<UserMenuProps> = ({
             py-3 
             px-4 
             rounded-full 
-            hover:bg-neutral-100 
+            hover:bg-neutral-100
+            hover:dark:bg-slate-600
             transition 
             cursor-pointer
           "
@@ -67,7 +68,8 @@ const UserMenu: React.FC<UserMenuProps> = ({
           md:py-1
           md:px-2
           border-[1px] 
-          border-neutral-200 
+          border-neutral-200
+          dark:border-neutral-600
           flex 
           flex-row 
           items-center 
