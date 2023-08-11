@@ -13,8 +13,8 @@ import ClientOnly from './components/ClientOnly';
 import getCurrentUser from './actions/getCurrentUser';
 
 export const metadata = {
-  title: 'Airbnb',
-  description: 'Airbnb Clone',
+  title: 'Vacation-MGMT',
+  description: 'Vacation Rentals Made Easy',
 }
 
 const font = Nunito({ 
@@ -39,7 +39,7 @@ export default async function RootLayout({
           <RentModal />
           <Navbar currentUser={currentUser} />
         </ClientOnly>
-        <div className="pb-20 pt-28">
+        <div className="pb-20 pt-28 dark:text-white dark:bg-slate-800">
           {children}
         </div>
       </body>

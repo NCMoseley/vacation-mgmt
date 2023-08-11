@@ -29,7 +29,8 @@ const ListingReservation: React.FC<
   return ( 
     <div 
       className="
-      bg-white 
+      bg-white
+      dark:bg-slate-800
         rounded-xl 
         border-[1px]
       border-neutral-200 

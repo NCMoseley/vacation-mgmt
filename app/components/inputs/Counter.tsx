@@ -32,7 +32,7 @@ const Counter: React.FC<CounterProps> = ({
     <div className="flex flex-row items-center justify-between">
       <div className="flex flex-col">
         <div className="font-medium">{title}</div>
-        <div className="font-light text-gray-600">
+        <div className="font-light text-gray-600 dark:text-white">
           {subtitle}
         </div>
       </div>
