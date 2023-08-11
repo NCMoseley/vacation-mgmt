@@ -4,21 +4,21 @@ This repository is for an application similar in functionality to Airbnb and oth
 
 ## Features
 
-Features to enhance user experience
-Tailwind design for modern and responsive look
-Tailwind animations and effects for interactivity
-Fully responsive website for any device
-Authentication options: credential, Google, and Github
-Image upload using Cloudinary CDN
-Client form validation and handling using react-hook-form
-Server error handling using react-toast
-Calendars with react-date-range for simple date selection
-Booking/reservation system with guest and owner reservation cancellation options
-Property creation and deletion with pricing calculation
-Advanced search algorithm to filter properties by category, date range, map location, number of guests, rooms, and bathrooms
-Favorites system and shareable URL filters
-POST and DELETE routes in route handlers (app/api)
-Fetching data in server react components by directly accessing the database
+- Features to enhance user experience
+- Tailwind design for modern and responsive look
+- Tailwind animations and effects for interactivity
+- Fully responsive website for any device
+- Authentication options: credential, Google, and Github
+- Image upload using Cloudinary CDN
+- Client form validation and handling using react-hook-form
+- Server error handling using react-toast
+- Calendars with react-date-range for simple date selection
+- Booking/reservation system with guest and owner reservation cancellation options
+- Property creation and deletion with pricing calculation
+- Advanced search algorithm to filter properties by category, date range, map location, number of guests, rooms, and bathrooms
+- Favorites system and shareable URL filters
+- POST and DELETE routes in route handlers (app/api)
+- Fetching data in server react components by directly accessing the database
 
 ## Demo 
 
