@@ -22,7 +22,7 @@ This repository is for an application similar in functionality to Airbnb and oth
 
 ## Demo 
 
-[Demo](https://vacation-mgmt-rcitk5ufh-ncmoseley.vercel.app/)
+[Demo](https://vacation-mgmt.vercel.app/)
 
 ### Prerequisites
 
