@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import { useRouter } from "next/navigation";
 
@@ -18,8 +18,8 @@ const EmptyState: React.FC<EmptyStateProps> = ({
 }) => {
   const router = useRouter();
 
-  return ( 
-    <div 
+  return (
+    <div
       className="
         h-[60vh]
         flex 
@@ -29,22 +29,18 @@ const EmptyState: React.FC<EmptyStateProps> = ({
         items-center 
       "
     >
-      <Heading
-        center
-        title={title}
-        subtitle={subtitle}
-      />
+      <Heading center title={title} subtitle={subtitle} />
       <div className="w-48 mt-4">
         {showReset && (
           <Button
             outline
             label="Remove all filters"
-            onClick={() => router.push('/')}
+            onClick={() => router.push("/")}
           />
         )}
       </div>
     </div>
-   );
-}
- 
+  );
+};
+
 export default EmptyState;
