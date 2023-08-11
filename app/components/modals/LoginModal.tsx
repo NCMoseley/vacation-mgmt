@@ -84,7 +84,7 @@ const LoginModal = () => {
       <Input
         id="password"
         label="Password"
-        type="password"
+        type={process.env.NODE_ENV === "development" ? "text" : "password"}
         disabled={isLoading}
         register={register}
         errors={errors}
