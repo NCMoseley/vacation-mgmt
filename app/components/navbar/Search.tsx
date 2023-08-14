@@ -63,7 +63,7 @@ const Search = () => {
         hover:shadow-md 
         transition 
         cursor-pointer
-        dark:bg-slate-800
+        dark:bg-zinc-800
       "
     >
       <div 

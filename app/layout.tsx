@@ -30,7 +30,7 @@ export default async function RootLayout({
 
   return (
     <html lang="en">
-      <body className={`${font.className} dark:text-white dark:bg-slate-800`}>
+      <body className={`${font.className} dark:text-white dark:bg-zinc-800`}>
         <ClientOnly>
           <ToasterProvider />
           <LoginModal />

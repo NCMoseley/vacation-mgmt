@@ -82,7 +82,7 @@ const Modal: React.FC<ModalProps> = ({
           outline-none 
           focus:outline-none
           bg-neutral-800/70
-          dark:bg-slate-800/70
+          dark:bg-zinc-800/70
           dark:text-white
         "
       >
@@ -120,7 +120,7 @@ const Modal: React.FC<ModalProps> = ({
               flex-col 
               w-full 
               bg-white
-              dark:bg-slate-800
+              dark:bg-zinc-800
               outline-none 
               focus:outline-none
             "
