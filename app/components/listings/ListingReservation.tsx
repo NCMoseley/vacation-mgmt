@@ -30,7 +30,7 @@ const ListingReservation: React.FC<
     <div 
       className="
       bg-white
-      dark:bg-slate-800
+      dark:bg-zinc-800
         rounded-xl 
         border-[1px]
       border-neutral-200 
