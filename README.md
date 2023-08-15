@@ -2,6 +2,12 @@
 
 This repository is for an application similar in functionality to Airbnb and other vacation rental software. It is a full-stack app built with Next.js 13 App Router: React, Tailwind, Prisma, NextAuth and uses MongoDB as a data store. It is deployed on Vercel.
 
+## Demo 
+
+[Demo](https://vacation-mgmt.vercel.app/)
+
+![Example](https://github.com/ncmoseley/vacation-mgmt/blob/main/public/images/vacations-mgmt-banner.png?raw=true)
+
 ## Features
 
 - Features to enhance user experience
@@ -19,10 +25,6 @@ This repository is for an application similar in functionality to Airbnb and oth
 - Favorites system and shareable URL filters
 - POST and DELETE routes in route handlers (app/api)
 - Fetching data in server react components by directly accessing the database
-
-## Demo 
-
-[Demo](https://vacation-mgmt.vercel.app/)
 
 ### Prerequisites
 
