@@ -11,7 +11,7 @@ This repository is for an application similar in functionality to Airbnb and oth
 ## Features
 
 - Features to enhance user experience
-- Tailwind design for modern and responsive look
+- Tailwind design for modern and responsive look with automatic dark mode integration
 - Tailwind animations and effects for interactivity
 - Fully responsive website for any device
 - Authentication options: credential, Google, and Github
